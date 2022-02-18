@@ -1,6 +1,7 @@
 <template>
   <header>
     <!-- Navigation bar | New Component -->
+    <!-- TODO // Generate elements using props + add active class -->
     <nav
       class="d-flex justify-content-between align-items-center py-3 container"
     >
