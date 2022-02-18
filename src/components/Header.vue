@@ -1,7 +1,7 @@
 <template>
   <header>
     <!-- Navigation bar | New Component -->
-    <!-- TODO // Generate elements using props + add active class -->
+    <!-- TODO // Generate elements using props -->
     <nav
       class="d-flex justify-content-between align-items-center py-3 container"
     >
@@ -12,7 +12,7 @@
         />
       </div>
       <ul class="d-flex">
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Home</a></li>
         <li><a href="#">Culinary History</a></li>
         <li><a href="#">Our Team</a></li>
         <li><a href="#">Our Menu</a></li>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/scss/style.scss";
+@import ".././assets/scss/style.scss";
 header {
   background-color: $black;
 }
@@ -47,8 +47,15 @@ nav {
       margin-top: 15px;
       a {
         text-decoration: none;
-        color: $white;
+        color: $silver;
         font-size: 14px;
+        &:active,
+        &:hover {
+          color: $white;
+        }
+      }
+      .active {
+        color: $white;
       }
     }
   }
