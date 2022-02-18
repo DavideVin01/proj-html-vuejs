@@ -2,6 +2,10 @@
     margin: 0 auto;
     max-width: 1000px;
 }
+.big-container{
+    margin: 0 auto;
+    max-width: 1400px;
+}
 
 // # TEXT
 .text-white{
@@ -34,6 +38,12 @@
 .text-christi{
     color: $christi;
 }
+.text-slate-gray{
+    color: $slate-gray;
+}
+.text-clear-blue{
+    color: $clear-blue;
+}
 
 // # BACKGROUNDS
 .bg-white{
@@ -65,4 +75,29 @@
 }
 .bg-christi{
     background-color: $christi;
+}
+
+// # BORDERS
+.border-white{
+    border: 1px solid white;
+}
+
+// Elements
+.subtitle{
+    color: $silver;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.section-title{
+    font-size: 90px;
+    font-family: $bebas-font;
+    line-height: 100px;
+}
+
+.square-white{
+    background-color: $white;
+    padding: 5px;
+    width: 65px;
+    height: 65px;
 }
