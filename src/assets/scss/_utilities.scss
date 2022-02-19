@@ -95,9 +95,24 @@
     line-height: 100px;
 }
 
+.paragraph-text{
+    font-family: $roboto-font;
+    font-size: 16px;
+}
+
 .square-white{
     background-color: $white;
-    padding: 5px;
-    width: 65px;
-    height: 65px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.text-small{
+    font-size: 12px;
+}
+.text-medium{
+    font-size: 16px;
+}
+.text-big{
+    font-size: 18px;
 }

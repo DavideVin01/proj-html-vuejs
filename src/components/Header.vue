@@ -2,9 +2,9 @@
   <header class="container-fluid">
     <!-- Navigation bar | New Component -->
     <!-- TODO // Generate elements using props -->
-    <div id="jumbo-nav" class="big-container">
+    <div id="jumbo-nav">
       <div class="row d-flex">
-        <div class="col-5 bg-black">
+        <div class="col-5 bg-black px-5">
           <div class="py-4">
             <img
               src="../assets/imgs/logo-restaurant.png"
@@ -16,10 +16,10 @@
             <div class="section-title text-white py-3">
               FINE DINING EXPERIENCE
             </div>
-            <p class="text-silver py-3">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-              unde quaerat molestiae iste error? Dolore animi iure minus
-              eligendi, quaerat velit soluta.
+            <p class="text-silver py-3 paragraph-text">
+              Pellentesque vitae viverra risus, sagittis. <br />Venenatis
+              ridiculus scelerisque nisi in urna nulla.<br />
+              Sit tempor a et nisl, ac felis.
             </p>
             <div class="pt-3 pb-5">
               <button class="text-white border-white">EXPLORE THE MENU</button>
@@ -28,7 +28,7 @@
         </div>
         <div class="col-7">
           <div id="jumbotron-right-side">
-            <nav class="d-flex align-items-center py-4">
+            <nav class="d-flex justify-content-center align-items-center py-4">
               <ul class="d-flex">
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">Culinary History</a></li>
@@ -44,6 +44,7 @@
             </nav>
             <div class="d-flex flex-column align-items-end">
               <div
+                role="button"
                 class="
                   square-white
                   rounded
@@ -55,10 +56,15 @@
                   text-clear-blue
                 "
               >
-                <i class="fas fa-caret-square-up fa-2x"></i>
-                <div>Demos</div>
+                <i class="fas fa-caret-square-up"></i>
+                <div class="text-small">Demos</div>
               </div>
-              <div class="square-white rounded mx-2 my-1 text-black">A</div>
+              <div
+                class="square-white rounded mx-2 my-1 text-black text-small"
+                role="button"
+              >
+                $39
+              </div>
             </div>
           </div>
         </div>
@@ -78,6 +84,11 @@ export default {
 header {
   background-color: $black;
 }
+
+#jumbo-nav {
+  min-height: 800px;
+}
+
 .big-container {
   background-color: $black;
 }
@@ -85,7 +96,7 @@ header {
 nav {
   ul {
     li {
-      padding: 0 15px;
+      padding: 0 20px;
       list-style-type: none;
       margin-top: 15px;
       a {
@@ -109,12 +120,16 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
+  min-height: 800px;
   width: 100%;
 }
 
 button {
   padding: 10px 15px;
   background-color: transparent;
+}
+
+.fa-caret-square-up {
+  font-size: 26px;
 }
 </style>
