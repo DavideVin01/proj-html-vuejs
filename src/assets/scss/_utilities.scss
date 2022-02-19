@@ -79,7 +79,10 @@
 
 // # BORDERS
 .border-white{
-    border: 1px solid white;
+    border: .5px solid white;
+}
+.border-black{
+    border: .5px solid rgba(rgb(92, 92, 92), 0.3);
 }
 
 // Elements
@@ -90,6 +93,12 @@
 }
 
 .section-title{
+    font-size: 70px;
+    font-family: $bebas-font;
+    line-height: 80px;
+}
+
+.header-title{
     font-size: 90px;
     font-family: $bebas-font;
     line-height: 100px;
@@ -116,3 +125,12 @@
 .text-big{
     font-size: 18px;
 }
+.text-center{
+    text-align: center;
+}
+
+button {
+    padding: 10px 35px;
+    background-color: transparent;
+    font-weight: 600;
+  }
