@@ -24,7 +24,7 @@
             </div>
           </div>
         </div>
-        <div class="col-7">
+        <div class="col-7 p-0">
           <div id="jumbotron">
             <nav class="d-flex justify-content-center align-items-center py-4">
               <ul class="d-flex">
