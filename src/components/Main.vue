@@ -109,6 +109,44 @@
         </div>
       </div>
     </section>
+
+    <!-- WHAT CRITICS SAYS ABOUT US -->
+    <section id="critics-score">
+      <div class="container">
+        <h2 class="my-5 py-4 cursive-text text-center">
+          What critics are saying about us
+        </h2>
+        <div class="row">
+          <div class="col-6 p-0">
+            <img src="../assets/imgs/blog72x.jpg" alt="Critics" />
+          </div>
+          <div
+            class="col-6 bg-black p-5 d-flex flex-column justify-content-center"
+          >
+            <div class="subtitle px-5 py-3">MEGGY STEWART</div>
+            <div class="section-title text-white px-5 py-3">NEW YORK TIMES</div>
+            <div class="d-flex text-white px-5 py-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <hr class="border-white" />
+            <p class="paragraph-text text-silver px-5 py-3">
+              Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+              Habitant amet tincidunt id sapien accumsan sed at.
+            </p>
+            <p class="paragraph-text text-silver px-5 py-3">
+              Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.
+            </p>
+            <div class="pt-3 px-5 py-3">
+              <button class="text-white border-white">READ FULL ARTICLE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
