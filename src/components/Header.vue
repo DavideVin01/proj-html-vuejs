@@ -1,7 +1,5 @@
 <template>
   <header class="container-fluid">
-    <!-- Navigation bar | New Component -->
-    <!-- TODO // Generate elements using props -->
     <div id="jumbo-nav">
       <div class="row d-flex">
         <div class="col-5 bg-black px-5">
@@ -30,13 +28,11 @@
           <div id="jumbotron-right-side">
             <nav class="d-flex justify-content-center align-items-center py-4">
               <ul class="d-flex">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Culinary History</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Our Menu</a></li>
-                <li><a href="#">Takeout</a></li>
-                <li><a href="#">Bulletin</a></li>
-                <li><a href="#">Reservations</a></li>
+                <li v-for="link in navLinks" :key="link.id">
+                  <a href="#" :class="{ active: link.active }">{{
+                    link.text
+                  }}</a>
+                </li>
                 <li>
                   <a href="#"><i class="fas fa-shopping-cart"></i></a>
                 </li>
@@ -75,6 +71,7 @@
 
 <script>
 export default {
+  props: ["navLinks"],
   name: "Header",
 };
 </script>

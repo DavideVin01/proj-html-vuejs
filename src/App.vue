@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :navLinks="navLinks" />
     <Main />
     <Footer />
   </div>
@@ -16,6 +16,47 @@ export default {
     Header,
     Main,
     Footer,
+  },
+  data() {
+    return {
+      navLinks: [
+        {
+          id: 1,
+          text: "Home",
+          active: true,
+        },
+        {
+          id: 2,
+          text: "Culinary History",
+          active: false,
+        },
+        {
+          id: 3,
+          text: "Our Team",
+          active: false,
+        },
+        {
+          id: 4,
+          text: "Our Menu",
+          active: false,
+        },
+        {
+          id: 5,
+          text: "Takeout",
+          active: false,
+        },
+        {
+          id: 6,
+          text: "Bulletin",
+          active: false,
+        },
+        {
+          id: 7,
+          text: "Reservations",
+          active: false,
+        },
+      ],
+    };
   },
 };
 </script>
