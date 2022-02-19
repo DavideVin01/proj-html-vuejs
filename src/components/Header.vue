@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-7">
-          <div id="jumbotron-right-side">
+          <div id="jumbotron">
             <nav class="d-flex justify-content-center align-items-center py-4">
               <ul class="d-flex">
                 <li v-for="link in navLinks" :key="link.id">
@@ -112,7 +112,7 @@ nav {
   }
 }
 
-#jumbotron-right-side {
+#jumbotron {
   background-image: url("../assets/imgs/slider52x.jpg");
   background-size: cover;
   background-repeat: no-repeat;

@@ -4,26 +4,27 @@
     <section id="common-ground" class="bg-white">
       <div class="container">
         <div class="row my-5">
-          <div class="col-6 gx-5 my-5">
+          <div class="col-6 my-5">
             <div class="paragraph-text py-3">
               <strong>HAC TELLUS, FELIS RISUS AT</strong> mattis mattis. Eget
-              euismod semper eget tortor, donec amet, blandit. Tristique
-              facilisi faucibus elementum feugiat in nam in feugiat. Ipsum odio
-              etiam duis facilis amet vulputate.
+              euismod <br />semper eget tortor, donec amet, blandit. Tristique
+              facilisi faucibus <br />elementum feugiat in nam in feugiat. Ipsum
+              odio etiam duis<br />
+              facilis amet vulputate.
             </div>
             <div class="section-title text-black py-3">
               FOOD IS OUR COMMON GROUND, A UNIVERSAL EXPERIENCE.
             </div>
             <div class="paragraph-text py-3">
-              Tristique tempus condimentum diam donec. Condimentum ullamcorper
-              sit elementum hendrerit mi nulla in consequat, ut. Metus, nullam
-              scelerisque netus viverra dui.
+              Tristique tempus condimentum diam donec. <br />Condimentum
+              ullamcorper sit elementum <br />hendrerit mi nulla in consequat,
+              ut. <br />Metus, nullam scelerisque netus viverra dui.
             </div>
-            <div class="py-3">
+            <div class="pt-5">
               <img src="../assets/imgs/signature-200x172.jpg" alt="Signature" />
             </div>
           </div>
-          <div class="col-6 my-5">
+          <div class="col-6 my-5 ps-2">
             <div>
               <img
                 src="../assets/imgs/info22x.jpg"
@@ -92,6 +93,7 @@ export default {
 @import "../assets/scss/style.scss";
 .poster-size {
   height: 750px;
+  width: 100%;
 }
 
 h3 {
