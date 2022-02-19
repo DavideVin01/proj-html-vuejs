@@ -116,7 +116,7 @@
         <h2 class="my-5 py-4 cursive-text text-center">
           What critics are saying about us
         </h2>
-        <div class="row">
+        <div class="row mb-5">
           <div class="col-6 p-0">
             <img src="../assets/imgs/blog72x.jpg" alt="Critics" />
           </div>
@@ -132,7 +132,7 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-            <hr class="border-white" />
+            <hr class="border-white w-25 ms-5" />
             <p class="paragraph-text text-silver px-5 py-3">
               Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
               Habitant amet tincidunt id sapien accumsan sed at.
@@ -144,6 +144,71 @@
               <button class="text-white border-white">READ FULL ARTICLE</button>
             </div>
           </div>
+        </div>
+
+        <div class="row d-flex justify-content-between mb-5 pb-5">
+          <!-- Left col -->
+          <div
+            class="col-6 p-5 d-flex flex-column justify-content-center"
+            id="critics-left"
+          >
+            <div class="subtitle px-5 py-3 text-white">MARY MAXEY</div>
+            <div class="section-title text-white px-5 py-3">THE GUARDIAN</div>
+            <div class="d-flex text-white px-5 py-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <hr class="border-white w-25 ms-5" />
+            <p class="paragraph-text text-silver px-5 py-3 text-white">
+              Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+              Habitant amet tincidunt id sapien accumsan sed at.
+            </p>
+            <p class="paragraph-text text-silver px-5 py-3 text-white">
+              Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.
+            </p>
+            <div class="pt-3 px-5 py-3">
+              <button class="text-white border-white">READ FULL ARTICLE</button>
+            </div>
+          </div>
+
+          <!-- Right col -->
+          <div
+            class="col-6 bg-black p-5 d-flex flex-column justify-content-center"
+            id="critics-right"
+          >
+            <div class="subtitle px-5 py-3 text-white">PATRICK MONROE</div>
+            <div class="section-title text-white px-5 py-3">GLOBE AND MAIL</div>
+            <div class="d-flex text-white px-5 py-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <hr class="border-white w-25 ms-5" />
+            <p class="paragraph-text text-silver px-5 py-3 text-white">
+              Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+              Habitant amet tincidunt id sapien accumsan sed at.
+            </p>
+            <p class="paragraph-text text-silver px-5 py-3 text-white">
+              Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.
+            </p>
+            <div class="pt-3 px-5 py-3">
+              <button class="text-white border-white">READ FULL ARTICLE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KUNG PAD CHICKEN - FULL JUMBOTRON -->
+    <section id="kung-pad-chicken-jumbo">
+      <div class="container-fluid p-0">
+        <div class="jumbotron d-flex justify-content-center align-items-end">
+          <div class="text-white pb-3">KUNG PAD CHICKEN - $32</div>
         </div>
       </div>
     </section>
@@ -174,5 +239,42 @@ h3 {
   background-position: center;
   height: 100%;
   width: 100%;
+}
+
+#critics-left {
+  background-image: url("../assets/imgs/info52x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+#critics-right {
+  background-image: url("../assets/imgs/info12x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  filter: grayscale(70%);
+}
+#critics-left {
+  background-image: url("../assets/imgs/info52x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  filter: grayscale(70%);
+}
+
+#kung-pad-chicken-jumbo {
+  .container-fluid {
+    .jumbotron {
+      background-image: url("../assets/imgs/page52x.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 500px;
+      width: 100%;
+    }
+  }
 }
 </style>
