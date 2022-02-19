@@ -271,7 +271,7 @@ h3 {
       background-image: url("../assets/imgs/page52x.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: bottom center;
       height: 500px;
       width: 100%;
     }
