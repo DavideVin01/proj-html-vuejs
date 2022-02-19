@@ -247,6 +247,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
+  width: 640px;
   filter: grayscale(70%);
 }
 #critics-right {
@@ -254,8 +255,14 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 640px;
   height: 100%;
   filter: grayscale(70%);
+}
+
+.fa-star {
+  padding: 0 3px;
+  font-size: 13px;
 }
 
 #kung-pad-chicken-jumbo {
