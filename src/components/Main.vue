@@ -247,17 +247,10 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
+  filter: grayscale(70%);
 }
 #critics-right {
   background-image: url("../assets/imgs/info12x.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  filter: grayscale(70%);
-}
-#critics-left {
-  background-image: url("../assets/imgs/info52x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
