@@ -439,8 +439,8 @@
       <div class="container p-5 mt-5">
         <div class="row">
           <div class="col-4">
-            <div class="bg-black p-5 text-white">
-              <div class="d-flex justify-content-between py-5">
+            <div id="third-jumbotron-box" class="bg-black text-white">
+              <div class="d-flex justify-content-between py-3">
                 <span class="section-title">BRAISED ABALONE</span>
                 <span class="cost text-medium">$52</span>
               </div>
@@ -549,5 +549,10 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
+  padding: 30px 0;
+}
+#third-jumbotron-box {
+  width: 500px;
+  padding: 80px;
 }
 </style>
