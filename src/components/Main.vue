@@ -196,7 +196,7 @@
             <p class="paragraph-text text-silver px-5 py-3 text-white">
               Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.
             </p>
-            <div class="pt-3 px-5 py-3">
+            <div class="px-5 py-3">
               <button class="text-white border-white">READ FULL ARTICLE</button>
             </div>
           </div>
@@ -204,11 +204,11 @@
       </div>
     </section>
 
-    <!-- KUNG PAD CHICKEN - FULL JUMBOTRON -->
-    <section id="kung-pad-chicken-jumbo">
+    <!-- KUNG PAO CHICKEN - FULL JUMBOTRON -->
+    <section id="kung-pao-chicken-jumbo">
       <div class="container-fluid p-0">
         <div class="jumbotron d-flex justify-content-center align-items-end">
-          <div class="text-white pb-3">KUNG PAD CHICKEN - $32</div>
+          <div class="text-white pb-3">KUNG PAO CHICKEN - $32</div>
         </div>
       </div>
     </section>
@@ -433,6 +433,33 @@
         </div>
       </div>
     </section>
+
+    <!-- FINAL JUMBOTRON -->
+    <section id="third-jumbotron">
+      <div class="container p-5 mt-5">
+        <div class="row">
+          <div class="col-4">
+            <div class="bg-black p-5 text-white">
+              <div class="d-flex justify-content-between py-5">
+                <span class="section-title">BRAISED ABALONE</span>
+                <span class="cost text-medium">$52</span>
+              </div>
+              <hr class="border-white w-25" />
+              <p class="paragraph-text text-silver py-4">
+                Pretium accumsan porttitor viverra leo gravida mollis imperdiet.
+                Fringilla nibh pharetra sociis leo amet.
+              </p>
+              <div class="py-3">
+                <button class="text-white border-white">
+                  VIEW IN THE MENU
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="offset-8"></div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -495,7 +522,7 @@ h3 {
   font-size: 13px;
 }
 
-#kung-pad-chicken-jumbo {
+#kung-pao-chicken-jumbo {
   .container-fluid {
     .jumbotron {
       background-image: url("../assets/imgs/page52x.jpg");
@@ -514,5 +541,13 @@ h3 {
   background-repeat: no-repeat;
   background-position: bottom center;
   box-shadow: inset 1px 390px 250px 0 #000000;
+}
+
+#third-jumbotron {
+  background-image: url("../assets/imgs/hero42x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 </style>
