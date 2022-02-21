@@ -478,7 +478,7 @@ h3 {
   background-position: center;
   height: 100%;
   width: 640px;
-  filter: grayscale(70%);
+  box-shadow: inset 1px 300px 250px 0 #000000;
 }
 #critics-right {
   background-image: url("../assets/imgs/info12x.jpg");
@@ -487,7 +487,7 @@ h3 {
   background-position: center;
   width: 640px;
   height: 100%;
-  filter: grayscale(70%);
+  box-shadow: inset 1px 300px 250px 0 #000000;
 }
 
 .fa-star {
@@ -513,5 +513,6 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+  box-shadow: inset 1px 390px 250px 0 #000000;
 }
 </style>
