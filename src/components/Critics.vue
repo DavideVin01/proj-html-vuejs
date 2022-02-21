@@ -14,11 +14,7 @@
           <div class="subtitle px-5 py-3">MEGGY STEWART</div>
           <div class="section-title text-white px-5 py-3">NEW YORK TIMES</div>
           <div class="d-flex text-white px-5 py-3">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i v-for="star in 5" :key="star.index" class="fas fa-star"></i>
           </div>
           <hr class="border-white w-25 ms-5" />
           <p class="paragraph-text text-silver px-5 py-3">
@@ -42,11 +38,7 @@
           <div class="subtitle px-5 py-3 text-white">MARY MAXEY</div>
           <div class="section-title text-white px-5 py-3">THE GUARDIAN</div>
           <div class="d-flex text-white px-5 py-3">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i v-for="star in 5" :key="star.index" class="fas fa-star"></i>
           </div>
           <hr class="border-white w-25 ms-5" />
           <p class="paragraph-text text-silver px-5 py-3 text-white">
@@ -68,11 +60,7 @@
           <div class="subtitle px-5 py-3 text-white">PATRICK MONROE</div>
           <div class="section-title text-white px-5 py-3">GLOBE AND MAIL</div>
           <div class="d-flex text-white px-5 py-3">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i v-for="star in 5" :key="star.index" class="fas fa-star"></i>
           </div>
           <hr class="border-white w-25 ms-5" />
           <p class="paragraph-text text-silver px-5 py-3 text-white">
