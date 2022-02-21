@@ -1,6 +1,6 @@
 <template>
   <section id="third-jumbotron">
-    <div class="container p-5 mt-5">
+    <div class="container p-5">
       <div class="row">
         <div class="col-4">
           <div id="third-jumbotron-box" class="bg-black text-white">
