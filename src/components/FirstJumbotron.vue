@@ -7,7 +7,7 @@
         </div>
         <div class="col-5 bg-black py-5 ps-2">
           <div class="p-5 ms-5">
-            <div class="subtitle pb-3 pt-5">FINE DINING EXPERIENCE</div>
+            <div class="section-subtitle pb-3 pt-5">FINE DINING EXPERIENCE</div>
             <div class="section-title text-white py-3">
               THE BEST TABLE<br />
               IN TOWN

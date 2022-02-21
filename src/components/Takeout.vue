@@ -7,7 +7,9 @@
         </div>
         <div class="col-5 bg-black py-5 ps-2">
           <div class="p-5 ms-5">
-            <div class="subtitle pb-3 pt-5">ENJOY YOUR MEAL AT HOME</div>
+            <div class="section-subtitle pb-3 pt-5">
+              ENJOY YOUR MEAL AT HOME
+            </div>
             <div class="section-title text-white py-3">
               TAKEOUT NOW<br />
               AVAILABLE
@@ -18,7 +20,10 @@
               Sit tempor a et nisl, ac felis.
             </p>
             <div class="pt-3 pb-5">
-              <button class="text-white border-white">VIEW TAKEOUT MENU</button>
+              <button class="border-white text-white text-small">
+                <i class="fas fa-car"></i>
+                <span class="ps-2">VIEW TAKEOUT MENU</span>
+              </button>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@
             />
           </div>
           <div class="p-5 ms-5">
-            <div class="subtitle pb-3 pt-5">THE BEST TABLE IN TOWN</div>
+            <div class="section-subtitle pb-3 pt-5">THE BEST TABLE IN TOWN</div>
             <div class="header-title text-white py-3">
               FINE DINING EXPERIENCE
             </div>

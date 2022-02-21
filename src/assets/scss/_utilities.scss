@@ -89,13 +89,30 @@
 
 // # BORDERS
 .border-white{
-    border: .5px solid white;
+    border: 0.5px solid white;
 }
 .border-black{
-    border: .5px solid rgba(rgb(92, 92, 92), 0.3);
+    border: 0.5px solid rgba(rgb(92, 92, 92), 0.3);
+}
+.border-silver{
+    border: 0.5px solid rgba($silver, 0.3);
 }
 
 // Elements
+.section-subtitle{
+    color: $silver;
+    font-size: 14px;
+    text-transform: capitalize;
+    &::before{
+        display: inline-block;
+    content: "";
+    border-top: .2rem solid $silver;
+    width: 3rem;
+    margin: 0 1rem 0 0;
+    padding: 0 10px 0 0;
+    transform: translateY(0rem);
+    }
+}
 .subtitle{
     color: $silver;
     font-size: 14px;
