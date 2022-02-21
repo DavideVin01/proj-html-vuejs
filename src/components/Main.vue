@@ -513,6 +513,5 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  filter: grayscale(70%);
 }
 </style>
