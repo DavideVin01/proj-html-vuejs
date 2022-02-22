@@ -23,34 +23,12 @@
       </p>
       <div id="logos" class="py-5 mb-5">
         <img
+          v-for="social in footerSocials"
+          :key="social.index"
           class="logo"
-          src="../assets/imgs/logos/facebook.png"
-          alt="Facebook"
+          :src="require(`../assets/imgs/logos/${social.name}.png`)"
+          :alt="social.name"
           role="button"
-        />
-        <img
-          class="logo"
-          src="../assets/imgs/logos/twitter.png"
-          alt="twitter"
-          role="button"
-        />
-        <img
-          class="logo"
-          src="../assets/imgs/logos/youtube.png"
-          alt="youtube"
-          role="button"
-        />
-        <img
-          class="logo"
-          src="../assets/imgs/logos/instagram.png"
-          alt="instagram"
-          role="button"
-        />
-        <img
-          class="logo"
-          src="../assets/imgs/logos/linked.png"
-          role="button"
-          alt="linked"
         />
       </div>
     </div>
@@ -73,6 +51,7 @@
 
 <script>
 export default {
+  props: ["footerBaseUri", "footerSocials"],
   name: "Footer",
 };
 </script>

@@ -2,7 +2,7 @@
   <div id="app">
     <Header :navLinks="navLinks" />
     <Main />
-    <Footer />
+    <Footer :footerSocials="footerSocials" />
   </div>
 </template>
 
@@ -54,6 +54,23 @@ export default {
           id: 7,
           text: "Reservations",
           active: false,
+        },
+      ],
+      footerSocials: [
+        {
+          name: "facebook",
+        },
+        {
+          name: "twitter",
+        },
+        {
+          name: "youtube",
+        },
+        {
+          name: "instagram",
+        },
+        {
+          name: "linkedin",
         },
       ],
     };
