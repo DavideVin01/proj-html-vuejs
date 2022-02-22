@@ -15,6 +15,7 @@
         <img
           src="../assets/imgs/logo-restaurant.png"
           alt="AVADA RESTAURANT LOGO"
+          role="button"
         />
       </div>
       <p class="paragraph-text text-silver">
@@ -43,7 +44,7 @@
         h-25
       "
     >
-      Copyright 2012 - 2019 Avada | All Rights Reserved | Powered by
+      @ Copyright 2012 - 2019 Avada | All Rights Reserved | Powered by
       <strong class="text-white" role="button"> WordPress | ThemeFusion</strong>
     </div>
   </footer>
@@ -51,7 +52,7 @@
 
 <script>
 export default {
-  props: ["footerBaseUri", "footerSocials"],
+  props: ["footerSocials"],
   name: "Footer",
 };
 </script>

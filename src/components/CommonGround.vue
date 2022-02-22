@@ -27,7 +27,7 @@
             <img
               src="../assets/imgs/info22x.jpg"
               alt="info"
-              class="poster-size"
+              class="poster-size grow"
             />
           </div>
         </div>
@@ -35,7 +35,7 @@
       <div class="row mx-5 px-5">
         <div class="col-4 d-flex align-items-center flex-column px-5 my-3">
           <div>
-            <img src="../assets/imgs/sushi-1.png" alt="Sushi" />
+            <img src="../assets/imgs/sushi-1.png" alt="Sushi" class="grow" />
           </div>
           <h3 class="pt-3">THE BEST TABLE IN TOWN</h3>
           <hr />
@@ -49,7 +49,7 @@
         </div>
         <div class="col-4 d-flex align-items-center flex-column px-5 my-3">
           <div>
-            <img src="../assets/imgs/sushi-2.png" alt="Sushi" />
+            <img src="../assets/imgs/sushi-2.png" alt="Sushi" class="grow" />
           </div>
           <h3 class="pt-3">PERFECT FOR GROUPS</h3>
           <hr />
@@ -63,7 +63,7 @@
         </div>
         <div class="col-4 d-flex align-items-center flex-column px-5 my-3">
           <div>
-            <img src="../assets/imgs/sushi-3.png" alt="Sushi" />
+            <img src="../assets/imgs/sushi-3.png" alt="Sushi" class="grow" />
           </div>
           <h3 class="pt-3">FRESH PRODUCE EVERYDAY</h3>
           <hr />

@@ -1,0 +1,44 @@
+// Grow
+.grow {
+    transition: all .5s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.perspective{
+    transition: all .5s ease-in-out;
+    &:hover{
+        transform: perspective(1000px) scale(1.05);
+    }
+}
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes pulse {
+    0% {
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes pulse {
+    0% {
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    transform: scale3d(1, 1, 1);
+    }
+    } 

@@ -2,7 +2,9 @@
   <section id="kung-pao-chicken-jumbo">
     <div class="container-fluid p-0">
       <div class="jumbotron d-flex justify-content-center align-items-end">
-        <div class="text-white pb-3">KUNG PAO CHICKEN - $32</div>
+        <div class="text-white pb-3 font-worksans text-small" role="button">
+          KUNG PAO CHICKEN - $32
+        </div>
       </div>
     </div>
   </section>

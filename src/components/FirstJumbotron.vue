@@ -8,7 +8,7 @@
         <div class="col-5 bg-black py-5 ps-2">
           <div class="p-5 ms-5">
             <div class="section-subtitle pb-3 pt-5">FINE DINING EXPERIENCE</div>
-            <div class="section-title text-white py-3">
+            <div class="section-title text-white py-3 pulse">
               THE BEST TABLE<br />
               IN TOWN
             </div>
@@ -17,8 +17,8 @@
               ridiculus scelerisque nisi in urna nulla.<br />
               Sit tempor a et nisl, ac felis.
             </p>
-            <div class="pt-3 pb-5">
-              <button class="text-white border-white">EXPLORE THE MENU</button>
+            <div class="pt-3 pb-5 font-worksans text-small">
+              <button class="button-black">EXPLORE THE MENU</button>
             </div>
           </div>
         </div>

@@ -13,8 +13,8 @@
               Pretium accumsan porttitor viverra leo gravida mollis imperdiet.
               Fringilla nibh pharetra sociis leo amet.
             </p>
-            <div class="py-3">
-              <button class="text-white border-white">VIEW IN THE MENU</button>
+            <div class="py-3 font-worksans">
+              <button class="button-black">VIEW IN THE MENU</button>
             </div>
           </div>
         </div>

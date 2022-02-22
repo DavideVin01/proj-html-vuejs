@@ -19,8 +19,8 @@
               ridiculus scelerisque nisi in urna nulla.<br />
               Sit tempor a et nisl, ac felis.
             </p>
-            <div class="pt-3 pb-5">
-              <button class="border-white text-white text-small">
+            <div class="pt-3 pb-5 font-worksans text-small">
+              <button class="button-black">
                 <i class="fas fa-car"></i>
                 <span class="ps-2">VIEW TAKEOUT MENU</span>
               </button>

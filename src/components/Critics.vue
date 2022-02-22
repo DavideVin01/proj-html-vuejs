@@ -1,7 +1,7 @@
 <template>
   <section id="critics-score">
     <div class="container">
-      <h2 class="my-5 py-4 cursive-text text-center">
+      <h2 class="my-5 py-4 font-lora text-center">
         What critics are saying about us
       </h2>
       <div class="row mb-5">
@@ -9,7 +9,15 @@
           <img src="../assets/imgs/blog72x.jpg" alt="Critics" />
         </div>
         <div
-          class="col-6 bg-black p-5 d-flex flex-column justify-content-center"
+          class="
+            col-6
+            bg-black
+            perspective
+            p-5
+            d-flex
+            flex-column
+            justify-content-center
+          "
         >
           <div class="subtitle px-5 py-3">MEGGY STEWART</div>
           <div class="section-title text-white px-5 py-3">NEW YORK TIMES</div>
@@ -24,15 +32,22 @@
           <p class="paragraph-text text-silver px-5 py-3">
             Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.
           </p>
-          <div class="pt-3 px-5 py-3">
-            <button class="text-white border-white">READ FULL ARTICLE</button>
+          <div class="px-5 py-3 font-worksans text-small">
+            <button class="button-black">READ FULL ARTICLE</button>
           </div>
         </div>
       </div>
 
       <div class="row d-flex justify-content-between mb-5 pb-5">
         <div
-          class="col-6 p-5 d-flex flex-column justify-content-center"
+          class="
+            col-6
+            p-5
+            d-flex
+            flex-column
+            justify-content-center
+            perspective
+          "
           id="critics-left"
         >
           <div class="subtitle px-5 py-3 text-white">MARY MAXEY</div>
@@ -54,7 +69,15 @@
         </div>
 
         <div
-          class="col-6 bg-black p-5 d-flex flex-column justify-content-center"
+          class="
+            col-6
+            bg-black
+            p-5
+            d-flex
+            flex-column
+            justify-content-center
+            perspective
+          "
           id="critics-right"
         >
           <div class="subtitle px-5 py-3 text-white">PATRICK MONROE</div>

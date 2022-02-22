@@ -7,11 +7,12 @@
             <img
               src="../assets/imgs/logo-restaurant.png"
               alt="AVADA RESTAURANT LOGO"
+              role="button"
             />
           </div>
           <div class="p-5 ms-5">
             <div class="section-subtitle pb-3 pt-5">THE BEST TABLE IN TOWN</div>
-            <div class="header-title text-white py-3">
+            <div class="header-title text-white py-3 pulse">
               FINE DINING EXPERIENCE
             </div>
             <p class="text-silver py-3 paragraph-text">
@@ -19,15 +20,17 @@
               ridiculus scelerisque nisi in urna nulla.<br />
               Sit tempor a et nisl, ac felis.
             </p>
-            <div class="pt-3 pb-5">
-              <button class="text-white border-white">EXPLORE THE MENU</button>
+            <div class="pt-3 pb-5 font-worksans text-small">
+              <button class="button-black border-white">
+                EXPLORE THE MENU
+              </button>
             </div>
           </div>
         </div>
         <div class="col-7 p-0">
           <div id="jumbotron">
             <nav class="d-flex justify-content-center align-items-center py-4">
-              <ul class="d-flex">
+              <ul class="d-flex font-worksans">
                 <li v-for="link in navLinks" :key="link.id">
                   <a href="#" :class="{ active: link.active }">{{
                     link.text
@@ -38,10 +41,12 @@
                 </li>
               </ul>
             </nav>
-            <div class="d-flex flex-column align-items-end">
+            <div id="boxes" class="d-flex flex-column align-items-end">
               <div
+                id="first-square"
                 role="button"
                 class="
+                  grow
                   square-white
                   rounded
                   mx-2
@@ -56,10 +61,18 @@
                 <div class="text-small">Demos</div>
               </div>
               <div
-                class="square-white rounded mx-2 my-1 text-black text-small"
+                id="second-square"
+                class="
+                  grow
+                  square-white
+                  rounded
+                  mx-2
+                  my-1
+                  text-black text-small
+                "
                 role="button"
               >
-                $39
+                <div class="text-forest-green text-big">$39</div>
               </div>
             </div>
           </div>
@@ -123,5 +136,14 @@ nav {
 
 .fa-caret-square-up {
   font-size: 26px;
+}
+
+#first-square {
+  top: 120px;
+  right: 0;
+}
+#second-square {
+  top: 185px;
+  right: 0;
 }
 </style>
