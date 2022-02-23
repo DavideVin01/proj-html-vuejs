@@ -23,7 +23,7 @@
             class="mb-4 perspective"
             alt="Coffee"
           />
-          <div class="h4 font-bebas">THE BEST COFFEE IN TOWN</div>
+          <div class="h4 font-bebas">DISCOVER OUR NEW MENU</div>
           <figcaption class="text-small">
             By admin | January 7th, 2020 | Categories: News
           </figcaption>
@@ -36,7 +36,7 @@
             class="mb-4 perspective"
             alt="Coffee"
           />
-          <div class="h4 font-bebas">THE BEST COFFEE IN TOWN</div>
+          <div class="h4 font-bebas">WE NOW ACCEPT SQUARE!</div>
           <figcaption class="text-small">
             By admin | January 7th, 2020 | Categories: News
           </figcaption>
